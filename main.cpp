@@ -6,8 +6,10 @@ int main()
 
 float flottant1, flottant2, resultat;
 
+do{
 cout << "Entrez le premier flottant : ";
 cin >> flottant1;
+} while (flottant1 == 0);
 
 do{
 cout << "Entrez le deuxième flottant : ";
